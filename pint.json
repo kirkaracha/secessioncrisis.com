@@ -1,0 +1,16 @@
+{
+    "preset": "psr12",
+    "rules": {
+        "blank_line_after_namespace": true,
+        "blank_line_after_opening_tag": true,
+        "concat_space": {
+            "spacing": "one"
+        },
+        "declare_strict_types": true,
+        "normalize_index_brace": true
+    },
+    "exclude": [
+        "node_modules",
+        "vendor"
+    ]
+}
