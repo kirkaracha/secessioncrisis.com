@@ -10,6 +10,8 @@ final class HomePageController extends Controller
 {
     public function index(): View
     {
-        return view(view: 'home.index');
+        return view(view: 'home.index', data: [
+            'useMapScript' => true,
+        ]);
     }
 }
