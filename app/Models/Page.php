@@ -18,6 +18,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  */
 #[Fillable([
     'title',
+    'slug',
     'contents',
 ])]
 final class Page extends BaseModel
