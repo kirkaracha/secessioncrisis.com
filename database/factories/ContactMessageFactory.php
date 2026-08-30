@@ -7,10 +7,11 @@ namespace Database\Factories;
 use App\Models\ContactFormEmail;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
+/**
+ * @extends Factory<ContactFormEmail>
+ */
 final class ContactMessageFactory extends Factory
 {
-    protected $model = ContactFormEmail::class;
-
     public function definition(): array
     {
         return [
